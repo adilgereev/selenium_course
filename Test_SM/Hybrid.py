@@ -4,13 +4,13 @@ import datetime
 from selenium.webdriver.common.keys import Keys
 
 # Переменные
+link = "https://demomrm.sbermarketing.ru/budget/execution"
 login = "adilgereev05@ya.ru"
 password = "Ifhfgenlby1993!"
 timestamp = datetime.datetime.fromtimestamp(time.time()).strftime('%d.%m.%y / %H:%M:%S')
 project_name = "Автотест " + timestamp
 сomment_budget = "Перевод деняк " + timestamp
 
-link = "https://demomrm.sbermarketing.ru/budget/execution"
 browser = webdriver.Chrome()
 browser.maximize_window()
 browser.get(link)
