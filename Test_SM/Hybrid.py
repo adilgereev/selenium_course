@@ -55,7 +55,7 @@ browser.find_element_by_css_selector("div:nth-child(3) > div > div > div.fronten
 browser.find_element_by_css_selector("div:nth-child(2) > div.ui-components__components__checkbox-group-filter__text").click()
 browser.find_element_by_css_selector("#modal-root > div").click()
 
-# Добавление бабла
+# Добавление бабла из внешнего источника
 browser.find_element_by_css_selector("#pageContent > div > div > div > div > div > div.frontend__budget-page__budget-execution__topLine > div:nth-child(1) > div.frontend__budget-page__budget-execution__transferBudgetButton > svg").click()
 browser.find_element_by_css_selector("div.frontend__budget-execution__budget-transfer-menu__transferSwitch > div > div:nth-child(3)").click()
 browser.find_element_by_css_selector("div:nth-child(1) > div > div.frontend__table__line__cells > div:nth-child(22) > div > div > div").click()
