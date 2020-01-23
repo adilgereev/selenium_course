@@ -53,7 +53,7 @@ scroll2 = browser.find_element_by_css_selector('div.frontend__edit-execution-bud
 browser.execute_script('arguments[0].scrollIntoView(true);', scroll2)
 
 # Сохранение проекта
-# browser.find_element_by_css_selector("div.ui-components__components__responsive-layout__rightSidebar > div > div > div > div").click()
+browser.find_element_by_css_selector("div.ui-components__components__responsive-layout__rightSidebar > div > div > div > div").click()
 
 time.sleep(3)
 # Закрываем браузер после всех манипуляций
