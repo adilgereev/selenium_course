@@ -23,8 +23,7 @@ browser.find_element_by_css_selector("button.button__auth").click()
 # time.sleep(4)
 
 # Создание проекта в бюджетировании
-browser.find_element_by_css_selector("#pageContent > div > div > div > div > div > div.frontend__budget-page__budget-execution__topLine > div:nth-child(1) > a").click()
-# time.sleep(2)
+browser.find_element_by_css_selector("div.frontend__budget-page__budget-execution__topLine > div:nth-child(1) > a").click()
 browser.find_element_by_css_selector("input.ui-components__components__input-redesign__briefPageTheme").send_keys(project_name)
 browser.find_element_by_css_selector("#react-select-2--value > div.Select-input > input").send_keys("Спонсор", Keys.ENTER)
 browser.find_element_by_css_selector("#react-select-3--value > div.Select-input > input").send_keys("Розничный", Keys.ENTER)
