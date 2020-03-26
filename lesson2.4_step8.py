@@ -10,6 +10,7 @@ browser = webdriver.Chrome()
 
 browser.get("http://suninjuly.github.io/explicit_wait2.html")
 
+
 # Вычисление требуемое на странице link
 def calc(x):
     return str(math.log(abs(12 * math.sin(int(x)))))
